@@ -1,0 +1,23 @@
+.absurd-flowchart-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.absurd-flowchart-image {
+  width: 1092px;
+  height: 621px;
+  object-fit: cover;
+}
+.absurd-flowchart-navlink {
+  display: contents;
+}
+.absurd-flowchart-text1 {
+  align-self: flex-end;
+  font-family: "Merriweather";
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
